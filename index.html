@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Tutorial</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+    
+     
+    
+   
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .sidebar a {float: left;}
+      div.content {margin-left: 0;}
+    }
+    
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+    }
+    .container{
+      width: 100%;
+      min-height: 100vh;
+      padding: 25%;
+      background-color: rgb(202, 238, 238);
+      background-position: center;
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+     
+    }
+    .search-bar{
+      width: 100%;
+      max-width: 700px;
+      background: rgba(255,255,255,0.2);
+      display: flex;
+      align-items:center ;
+      border-radius: 60px;
+      padding: 10px 20px;
+    }
+    .search-bar input{
+      background: thistle;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="sidebar"><label> Study Buddy </label>
+    <ul>
+      <li> <a class="active" href="#">Home</a></li>
+      <li><a href="#">Tutorial</a></li>
+      <li><a href="#">References</a></li>
+      <li><a href="#">Excerise</a></li>
+    </ul></div>
+  </nav>
+  <div class="container">
+    <form action="" class="search-bar">
+      <input type="text" placeholder="search anything" name="q">
+      <button type="submit"><img src="download.png" alt=""></button>
+    </form>
+
+  </div>
+
+  
+</body>
+</html>
